@@ -2084,3 +2084,428 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.28-00.09.23:673][632]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/BP_Car192D382FD4A56B149DE91198BAA8A2BD2.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Blueprints/Street/BP_Car1.uasset'
 [2022.03.28-00.09.23:686][632]AssetCheck: New page: Asset Save: BP_Car1
 [2022.03.28-00.09.23:686][632]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Street/BP_Car1.BP_Car1
+[2022.03.28-00.10.23:826][641]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/StarterContent/Particles/P_Smoke.P_Smoke
+[2022.03.28-00.10.26:100][770]LogCascade: Quitting Cascade. FXSystem=0x000002436F6549D0
+[2022.03.28-00.10.26:109][770]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.10.26:109][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.28-00.10.33:089][182]Cmd: DELETE
+[2022.03.28-00.10.33:089][182]Cmd: ACTOR DELETE
+[2022.03.28-00.10.33:134][182]LogEditorActor: Deleted Actor: Emitter
+[2022.03.28-00.10.33:162][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.03.28-00.10.33:164][182]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2022.03.28-00.10.40:104][572]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.28-00.10.40:114][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.28-00.10.40:114][572]PIE: New page: PIE session: Street (28 Mar 2022, 02:10:40)
+[2022.03.28-00.10.40:114][572]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Street
+[2022.03.28-00.10.40:133][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018662s)
+[2022.03.28-00.10.40:134][572]LogAIModule: Creating AISystem for world Street
+[2022.03.28-00.10.40:134][572]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2022.03.28-00.10.40:134][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Street.Street to /Game/Maps/UEDPIE_0_Street.Street (0.020002s)
+[2022.03.28-00.10.40:158][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.03.28-00.10.40:159][572]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.03.28-00.10.40:159][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.28-00.10.40:159][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.28-00.10.40:159][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.28-00.10.40:159][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.28-00.10.40:159][572]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.28-00.10.40:159][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.28-00.10.40:160][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.28-00.10.40:160][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.28-00.10.40:160][572]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.28-00.10.40:160][572]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.28-00.10.40:163][572]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.28-00.10.40:163][572]LogAudioMixer: Display: 1: FrontRight
+[2022.03.28-00.10.40:177][572]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.03.28-00.10.40:177][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.28-00.10.40:177][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.28-00.10.40:177][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.28-00.10.40:177][572]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.28-00.10.40:177][572]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.28-00.10.40:177][572]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.28-00.10.40:191][572]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.28-00.10.40:191][572]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.28-00.10.40:191][572]LogInit: FAudioDevice initialized.
+[2022.03.28-00.10.40:191][572]LogAudio: Display: Audio Device (ID: 12) registered with world 'Street'.
+[2022.03.28-00.10.40:196][572]LogLoad: Game class is 'BP_GameModeRaccoon_C'
+[2022.03.28-00.10.40:201][572]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Street.Street up for play (max tick rate 60) at 2022.03.28-01.10.40
+[2022.03.28-00.10.40:202][572]LogWorld: Bringing up level for play took: 0.004731
+[2022.03.28-00.10.40:202][572]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2022.03.28-00.10.40:205][572]PIE: Server logged in
+[2022.03.28-00.10.40:205][572]PIE: Play in editor total start time 0.095 seconds.
+[2022.03.28-00.10.49:106][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.28-00.10.49:106][ 98]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Street
+[2022.03.28-00.10.49:106][ 98]LogWorld: UWorld::CleanupWorld for Street, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.10.49:107][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.28-00.10.49:118][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.28-00.10.49:129][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.28-00.10.49:151][ 98]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.28-00.10.49:151][ 98]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.28-00.10.49:152][ 98]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.28-00.10.49:166][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.28-00.10.49:170][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.03.28-00.10.49:206][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2022.03.28-00.10.54:165][396]Cmd: DELETE
+[2022.03.28-00.10.54:165][396]Cmd: ACTOR DELETE
+[2022.03.28-00.10.54:169][396]LogEditorActor: Deleted Actor: Emitter
+[2022.03.28-00.10.54:192][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.03.28-00.10.54:194][396]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.03.28-00.11.06:810][118]Cmd: DELETE
+[2022.03.28-00.11.06:810][118]Cmd: ACTOR DELETE
+[2022.03.28-00.11.06:815][118]LogEditorActor: Deleted Actor: Emitter
+[2022.03.28-00.11.06:838][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2022.03.28-00.11.06:839][118]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.03.28-00.11.12:847][448]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire)
+[2022.03.28-00.11.16:984][696]Cmd: DELETE
+[2022.03.28-00.11.16:984][696]Cmd: ACTOR DELETE
+[2022.03.28-00.11.16:988][696]LogEditorActor: Deleted Actor: Emitter
+[2022.03.28-00.11.17:012][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.03.28-00.11.17:013][696]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2022.03.28-00.11.49:322][566]BlueprintLog: New page: Compile BP_Car1
+[2022.03.28-00.11.49:372][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2022.03.28-00.11.50:373][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Street/BP_Car1" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Blueprints/Street/BP_Car1.uasset" SILENT=true
+[2022.03.28-00.11.50:384][621]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/BP_Car13C09BB4D4BC87EB4047E57984AC20DFA.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Blueprints/Street/BP_Car1.uasset'
+[2022.03.28-00.11.50:398][621]AssetCheck: New page: Asset Save: BP_Car1
+[2022.03.28-00.11.50:398][621]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Street/BP_Car1.BP_Car1
+[2022.03.28-00.11.51:227][669]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.28-00.11.51:235][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.28-00.11.51:235][669]PIE: New page: PIE session: Street (28 Mar 2022, 02:11:51)
+[2022.03.28-00.11.51:236][669]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Street
+[2022.03.28-00.11.51:254][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018379s)
+[2022.03.28-00.11.51:255][669]LogAIModule: Creating AISystem for world Street
+[2022.03.28-00.11.51:255][669]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2022.03.28-00.11.51:255][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Street.Street to /Game/Maps/UEDPIE_0_Street.Street (0.019515s)
+[2022.03.28-00.11.51:279][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.03.28-00.11.51:280][669]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.03.28-00.11.51:280][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.28-00.11.51:280][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.28-00.11.51:280][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.28-00.11.51:280][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.28-00.11.51:280][669]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.28-00.11.51:280][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.28-00.11.51:280][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.28-00.11.51:280][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.28-00.11.51:280][669]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.28-00.11.51:281][669]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.28-00.11.51:283][669]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.28-00.11.51:283][669]LogAudioMixer: Display: 1: FrontRight
+[2022.03.28-00.11.51:296][669]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.03.28-00.11.51:296][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.28-00.11.51:296][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.28-00.11.51:296][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.28-00.11.51:297][669]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.28-00.11.51:297][669]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.28-00.11.51:297][669]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.28-00.11.51:310][669]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.28-00.11.51:310][669]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.28-00.11.51:310][669]LogInit: FAudioDevice initialized.
+[2022.03.28-00.11.51:310][669]LogAudio: Display: Audio Device (ID: 13) registered with world 'Street'.
+[2022.03.28-00.11.51:364][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.28-00.11.51:365][669]LogLoad: Game class is 'BP_GameModeRaccoon_C'
+[2022.03.28-00.11.51:371][669]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Street.Street up for play (max tick rate 60) at 2022.03.28-01.11.51
+[2022.03.28-00.11.51:371][669]LogWorld: Bringing up level for play took: 0.006010
+[2022.03.28-00.11.51:371][669]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2022.03.28-00.11.51:375][669]PIE: Server logged in
+[2022.03.28-00.11.51:376][669]PIE: Play in editor total start time 0.145 seconds.
+[2022.03.28-00.11.56:066][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.28-00.11.56:067][943]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Street
+[2022.03.28-00.11.56:067][943]LogSlate: Window 'Raccoozle Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.03.28-00.11.56:072][943]LogWorld: UWorld::CleanupWorld for Street, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.11.56:074][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.28-00.11.56:084][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.28-00.11.56:088][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.28-00.11.56:111][943]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.28-00.11.56:111][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.28-00.11.56:112][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.28-00.11.56:131][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.03.28-00.11.56:148][944]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2022.03.28-00.11.56:839][983]Cmd: TRANSACTION UNDO
+[2022.03.28-00.11.56:839][983]LogEditorTransaction: Undo Modify Component(s)
+[2022.03.28-00.11.57:046][987]Cmd: TRANSACTION UNDO
+[2022.03.28-00.11.57:046][987]LogEditorTransaction: Undo Modify Component(s)
+[2022.03.28-00.11.57:395][998]Cmd: TRANSACTION UNDO
+[2022.03.28-00.11.57:395][998]LogEditorTransaction: Undo Modify Component(s)
+[2022.03.28-00.11.57:811][ 20]Cmd: TRANSACTION UNDO
+[2022.03.28-00.11.57:811][ 20]LogEditorTransaction: Undo Modify Component(s)
+[2022.03.28-00.11.58:181][ 42]Cmd: TRANSACTION UNDO
+[2022.03.28-00.11.58:181][ 42]LogEditorTransaction: Undo Attach Component
+[2022.03.28-00.11.58:825][ 79]Cmd: TRANSACTION UNDO
+[2022.03.28-00.11.58:825][ 79]LogEditorTransaction: Undo Set Node Enabled State
+[2022.03.28-00.11.59:493][116]Cmd: TRANSACTION UNDO
+[2022.03.28-00.11.59:493][116]LogEditorTransaction: Undo Modify Component(s)
+[2022.03.28-00.12.02:047][259]BlueprintLog: New page: Compile BP_Car1
+[2022.03.28-00.12.02:089][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2022.03.28-00.12.02:447][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Street/BP_Car1" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Blueprints/Street/BP_Car1.uasset" SILENT=true
+[2022.03.28-00.12.02:458][277]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/BP_Car1AFD00FCA4DAA9C2BEFB5A0974402EC17.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Blueprints/Street/BP_Car1.uasset'
+[2022.03.28-00.12.02:473][277]AssetCheck: New page: Asset Save: BP_Car1
+[2022.03.28-00.12.02:473][277]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Street/BP_Car1.BP_Car1
+[2022.03.28-00.12.03:342][328]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.12.03:342][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.28-00.16.31:470][521]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2022.03.28-00.16.31:499][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Street" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Autosaves/Game/Maps/Street_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.03.28-00.16.31:595][521]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Street_Auto1B4FAB04649E3F0BD351CB398E882385A.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Autosaves/Game/Maps/Street_Auto1.umap'
+[2022.03.28-00.16.31:603][521]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Street' took 0.179
+[2022.03.28-00.16.31:603][521]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.179
+[2022.03.28-00.25.28:431][466]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Unreal/PuzzleRaccoon/Assets/Objects/CupCake/uploads_files_1985193_cupcake.fbx)
+[2022.03.28-00.25.28:625][466]LogFbx: Loading FBX Scene from ../../../../../Unreal/PuzzleRaccoon/Assets/Objects/CupCake/uploads_files_1985193_cupcake.fbx
+[2022.03.28-00.25.28:705][466]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.28-00.25.29:774][466]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.28-00.25.29:961][466]LogTexture: Display: Building textures: 5_2 (AutoDXT, 2048X2048)
+[2022.03.28-00.25.30:274][466]LogTexture: Display: Building textures: 7_2 (AutoDXT, 1024X1024)
+[2022.03.28-00.25.30:482][466]LogMaterial: Display: Missing cached shader map for material Material_42, compiling. 
+[2022.03.28-00.25.30:572][466]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2022.03.28-00.25.30:572][466]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.03.28-00.25.30:572][466]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2022.03.28-00.25.30:640][466]LogStaticMesh: Building static mesh uploads_files_1985193_cupcake...
+[2022.03.28-00.25.30:752][466]LogStaticMesh: Built static mesh [0.11s] /Game/Assets/3D/Objects/uploads_files_1985193_cupcake.uploads_files_1985193_cupcake
+[2022.03.28-00.25.31:694][466]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.28-00.25.33:455][544]LogSlate: Window 'Message Log' being destroyed
+[2022.03.28-00.25.33:459][544]LogSlate: Window 'Message Log' being destroyed
+[2022.03.28-00.25.36:111][685]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.03.28-00.25.36:123][685]LogContentBrowser: Creating deferred item: NewFolder
+[2022.03.28-00.25.38:192][810]LogContentBrowser: Attempting asset rename: NewFolder -> CupCake
+[2022.03.28-00.25.38:193][810]LogContentBrowser: End creating deferred item NewFolder
+[2022.03.28-00.25.48:430][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Objects/CupCake/Material_42" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/CupCake/Material_42.uasset" SILENT=true
+[2022.03.28-00.25.48:435][312]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Material_42CEF7313F4AC5DA50A46E978948055B21.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/CupCake/Material_42.uasset'
+[2022.03.28-00.25.48:441][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Objects/CupCake/5_2" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/CupCake/5_2.uasset" SILENT=true
+[2022.03.28-00.25.48:572][312]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/5_2EC5427B7400F207937A23F9B6772A314.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/CupCake/5_2.uasset'
+[2022.03.28-00.25.48:578][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Objects/CupCake/7_2" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/CupCake/7_2.uasset" SILENT=true
+[2022.03.28-00.25.48:621][312]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/7_25DDEE4494A3196937A547D8018F752EF.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/CupCake/7_2.uasset'
+[2022.03.28-00.25.48:680][312]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/uploads_files_1985193_cupcakeFCFEED5947DBFED87683AF875E5BDF5A.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/CupCake/uploads_files_1985193_cupcake.uasset'
+[2022.03.28-00.25.48:907][312]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2022.03.28-00.25.48:925][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.03.28-00.25.48:939][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.03.28-00.25.48:952][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.03.28-00.25.48:976][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.03.28-00.25.48:990][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.03.28-00.25.49:069][312]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.28-00.25.49:069][312]LogContentValidation: Display: Validating Texture2D /Game/Assets/3D/Objects/CupCake/7_2.7_2
+[2022.03.28-00.25.49:069][312]LogContentValidation: Display: Validating Texture2D /Game/Assets/3D/Objects/CupCake/5_2.5_2
+[2022.03.28-00.25.49:069][312]LogContentValidation: Display: Validating Material /Game/Assets/3D/Objects/CupCake/Material_42.Material_42
+[2022.03.28-00.25.49:069][312]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3D/Objects/CupCake/uploads_files_1985193_cupcake.uploads_files_1985193_cupcake
+[2022.03.28-00.25.50:661][400]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/3D/Objects/CupCake/uploads_files_1985193_cupcake.uploads_files_1985193_cupcake
+[2022.03.28-00.25.57:783][733]LogSlate: Window 'uploads_files_1985193_cupcake' being destroyed
+[2022.03.28-00.25.57:813][733]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.25.57:813][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.28-00.26.04:790][115]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.03.28-00.26.04:800][115]LogContentBrowser: Creating deferred item: NewFolder
+[2022.03.28-00.26.07:299][265]LogContentBrowser: Attempting asset rename: NewFolder -> TeddyBear
+[2022.03.28-00.26.07:300][265]LogContentBrowser: End creating deferred item NewFolder
+[2022.03.28-00.26.09:208][372]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.03.28-00.26.09:224][372]LogContentBrowser: Creating deferred item: NewFolder
+[2022.03.28-00.26.14:185][669]LogContentBrowser: Attempting asset rename: NewFolder -> Heart
+[2022.03.28-00.26.14:186][669]LogContentBrowser: End creating deferred item NewFolder
+[2022.03.28-00.26.24:779][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Street" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.28-00.26.24:839][298]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.03.28-00.26.24:914][298]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Street7C2ABE664681CA067FEF0396FBE40C5A.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street.umap'
+[2022.03.28-00.26.24:929][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Street_BuiltData" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street_BuiltData.uasset" SILENT=true
+[2022.03.28-00.26.25:519][298]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Street_BuiltDataF88EC3B641D64F04C0652AB5393E4C34.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street_BuiltData.uasset'
+[2022.03.28-00.26.25:583][298]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.28-00.26.25:583][298]LogContentValidation: Display: Validating World /Game/Maps/Street.Street
+[2022.03.28-00.26.25:583][298]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Street_BuiltData.Street_BuiltData
+[2022.03.28-00.26.43:456][741]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Unreal/PuzzleRaccoon/Assets/Objects/TeddyBear/teddy_bear.fbx)
+[2022.03.28-00.26.43:466][741]LogFbx: Loading FBX Scene from ../../../../../Unreal/PuzzleRaccoon/Assets/Objects/TeddyBear/teddy_bear.fbx
+[2022.03.28-00.26.43:477][741]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.28-00.26.44:425][741]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.28-00.26.44:450][741]LogTexture: Display: Building textures: T_item_teddy_bear_D (AutoDXT, 512X512)
+[2022.03.28-00.26.44:495][741]LogTexture: Display: Building textures: T_item_teddy_bear_Spec (AutoDXT, 512X512)
+[2022.03.28-00.26.44:533][741]LogTexture: Display: Building textures: T_item_teddy_bear_N (BC5, 512X512)
+[2022.03.28-00.26.44:549][741]LogMaterial: Display: Missing cached shader map for material teddy_bear1, compiling. 
+[2022.03.28-00.26.44:571][741]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2022.03.28-00.26.44:571][741]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.03.28-00.26.44:571][741]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2022.03.28-00.26.44:576][741]LogStaticMesh: Building static mesh teddy_bear...
+[2022.03.28-00.26.44:607][741]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/3D/Objects/TeddyBear/teddy_bear.teddy_bear
+[2022.03.28-00.26.44:626][741]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'T_item_teddy_bear_Spec' was renamed 'T_item_teddy_bear_Spec_ncl1_1' 
+[2022.03.28-00.26.44:626][741]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.28-00.26.45:801][793]LogSlate: Window 'Message Log' being destroyed
+[2022.03.28-00.26.45:805][793]LogSlate: Window 'Message Log' being destroyed
+[2022.03.28-00.26.56:229][139]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Unreal/PuzzleRaccoon/Assets/Objects/HeartToy/uploads_files_2036667_LP_heart_FBX.fbx)
+[2022.03.28-00.26.56:237][139]LogFbx: Loading FBX Scene from ../../../../../Unreal/PuzzleRaccoon/Assets/Objects/HeartToy/uploads_files_2036667_LP_heart_FBX.fbx
+[2022.03.28-00.26.56:241][139]LogFbx: FBX Scene Loaded Succesfully
+[2022.03.28-00.26.57:147][139]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.03.28-00.26.57:162][139]LogMaterial: Display: Missing cached shader map for material Ruby, compiling. 
+[2022.03.28-00.26.57:171][139]LogFbx: Display: Triangulating static mesh Cloner_1
+[2022.03.28-00.26.57:267][139]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2022.03.28-00.26.57:267][139]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.03.28-00.26.57:267][139]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2022.03.28-00.26.57:269][139]LogStaticMesh: Building static mesh uploads_files_2036667_LP_heart_FBX...
+[2022.03.28-00.26.57:275][139]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/3D/Objects/Heart/uploads_files_2036667_LP_heart_FBX.uploads_files_2036667_LP_heart_FBX
+[2022.03.28-00.26.57:286][139]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.03.28-00.26.58:605][198]LogSlate: Window 'Message Log' being destroyed
+[2022.03.28-00.26.58:609][198]LogSlate: Window 'Message Log' being destroyed
+[2022.03.28-00.27.00:493][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Street" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.28-00.27.00:534][301]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.03.28-00.27.00:610][301]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Street62FC1662414580920A1198BCA42B86DB.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street.umap'
+[2022.03.28-00.27.00:622][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Street_BuiltData" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street_BuiltData.uasset" SILENT=true
+[2022.03.28-00.27.00:913][301]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Street_BuiltData92F093F347DC118B7750CA829475D12A.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street_BuiltData.uasset'
+[2022.03.28-00.27.00:930][301]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.28-00.27.00:930][301]LogContentValidation: Display: Validating World /Game/Maps/Street.Street
+[2022.03.28-00.27.00:930][301]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Street_BuiltData.Street_BuiltData
+[2022.03.28-00.27.05:094][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Street" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.28-00.27.05:110][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.03.28-00.27.05:183][545]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Street53F979DD4D49CE0B626266B06AF5F4C1.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street.umap'
+[2022.03.28-00.27.05:195][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Street_BuiltData" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street_BuiltData.uasset" SILENT=true
+[2022.03.28-00.27.05:480][545]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Street_BuiltDataF7459A014D06F36F3A9540876C4576AB.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Maps/Street_BuiltData.uasset'
+[2022.03.28-00.27.05:497][545]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.28-00.27.05:497][545]LogContentValidation: Display: Validating World /Game/Maps/Street.Street
+[2022.03.28-00.27.05:497][545]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Street_BuiltData.Street_BuiltData
+[2022.03.28-00.27.06:266][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.03.28-00.27.07:241][584]LogSlate: Window 'Save Content' being destroyed
+[2022.03.28-00.27.07:270][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Objects/Heart/Ruby" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/Heart/Ruby.uasset" SILENT=true
+[2022.03.28-00.27.07:275][584]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/Ruby065B479444D2CB85DA0CCBBA325228B7.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/Heart/Ruby.uasset'
+[2022.03.28-00.27.07:307][584]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/T_item_teddy_bear_D05C2AB2B4848D4F86C016F8F574D016B.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/TeddyBear/T_item_teddy_bear_D.uasset'
+[2022.03.28-00.27.07:331][584]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/T_item_teddy_bear_NE7FF10C64AA5A36833333BB1CA18899D.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/TeddyBear/T_item_teddy_bear_N.uasset'
+[2022.03.28-00.27.07:353][584]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/T_item_teddy_bear_Spec2D61FD1A45124CF98D473C8D4163ED74.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/TeddyBear/T_item_teddy_bear_Spec.uasset'
+[2022.03.28-00.27.07:364][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Objects/TeddyBear/teddy_bear" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/TeddyBear/teddy_bear.uasset" SILENT=true
+[2022.03.28-00.27.07:375][584]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/teddy_bearA15C7C8448C1D88DC2C711B3FCC3B59B.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/TeddyBear/teddy_bear.uasset'
+[2022.03.28-00.27.07:385][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/3D/Objects/TeddyBear/teddy_bear1" FILE="../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/TeddyBear/teddy_bear1.uasset" SILENT=true
+[2022.03.28-00.27.07:391][584]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/teddy_bear1DF786368430A9B9F941C599E8319B6BF.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/TeddyBear/teddy_bear1.uasset'
+[2022.03.28-00.27.07:405][584]LogSavePackage: Moving '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Saved/uploads_files_2036667_LP_heart_F7C42EDF74BA1039DDBF1078AECB26055.tmp' to '../../../../../Unreal/PuzzleRaccoon/Raccoozle/Content/Assets/3D/Objects/Heart/uploads_files_2036667_LP_heart_FBX.uasset'
+[2022.03.28-00.27.07:423][584]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.28-00.27.07:423][584]LogContentValidation: Display: Validating Material /Game/Assets/3D/Objects/Heart/Ruby.Ruby
+[2022.03.28-00.27.07:423][584]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3D/Objects/Heart/uploads_files_2036667_LP_heart_FBX.uploads_files_2036667_LP_heart_FBX
+[2022.03.28-00.27.07:423][584]LogContentValidation: Display: Validating Texture2D /Game/Assets/3D/Objects/TeddyBear/T_item_teddy_bear_N.T_item_teddy_bear_N
+[2022.03.28-00.27.07:423][584]LogContentValidation: Display: Validating Texture2D /Game/Assets/3D/Objects/TeddyBear/T_item_teddy_bear_Spec.T_item_teddy_bear_Spec
+[2022.03.28-00.27.07:423][584]LogContentValidation: Display: Validating Texture2D /Game/Assets/3D/Objects/TeddyBear/T_item_teddy_bear_D.T_item_teddy_bear_D
+[2022.03.28-00.27.07:423][584]LogContentValidation: Display: Validating Material /Game/Assets/3D/Objects/TeddyBear/teddy_bear1.teddy_bear1
+[2022.03.28-00.27.07:423][584]LogContentValidation: Display: Validating StaticMesh /Game/Assets/3D/Objects/TeddyBear/teddy_bear.teddy_bear
+[2022.03.28-00.27.08:877][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.03.28-00.27.09:002][670]LogSlate: Window 'Raccoozle - Unreal Editor' being destroyed
+[2022.03.28-00.27.09:252][671]Cmd: QUIT_EDITOR
+[2022.03.28-00.27.09:252][671]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.03.28-00.27.09:336][671]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.03.28-00.27.09:449][671]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.03.28-00.27.09:449][671]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.03.28-00.27.09:449][671]LogAudio: Display: Audio Device unregistered from world 'Street'.
+[2022.03.28-00.27.09:449][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.28-00.27.09:450][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.28-00.27.09:489][671]LogAudio: Display: Audio Device Manager Shutdown
+[2022.03.28-00.27.09:527][671]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.03.28-00.27.09:535][671]LogExit: Preparing to exit.
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36200] Windows
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36300] Default__DeviceProfile
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD2000] WindowsNoEditor
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35700] WindowsServer
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD1600] WindowsClient
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36000] IOS
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD3500] iPadAir
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B34200] iPadAir2
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75F00] IPadPro
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76000] iPadAir3
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD2C00] iPadAir4
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77800] iPadMini2
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD0900] iPadMini3
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75400] iPadMini4
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD1300] iPadMini5
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A85800] iPhone6
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A85900] iPodTouch6
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76100] iPhone7
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77D00] iPodTouch7
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A87000] iPhone5S
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76F00] iPhone6Plus
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A85600] iPhone6S
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A74E00] iPhone6SPlus
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A84700] iPhone7Plus
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A74A00] iPhoneSE
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A86800] iPhone8
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77C00] iPhone8Plus
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A84500] iPhoneX
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76C00] iPhoneXS
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A86500] iPhoneXSMax
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75500] iPhoneXR
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A84D00] iPhone11
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76600] iPhone11Pro
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A86600] iPhone11ProMax
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75100] iPhoneSE2
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A86700] iPhone12Mini
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76200] iPhone12
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A86000] iPhone12Pro
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76300] iPhone12ProMax
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36700] iPadPro105
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A74200] iPadPro129
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36A00] iPadPro97
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77E00] iPadPro2_129
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B34800] iPad5
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A74C00] iPad6
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35600] iPad7
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A74900] iPad8
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35F00] iPadPro11
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75B00] iPadPro2_11
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35D00] iPadPro3_129
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76B00] iPadPro4_129
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36900] AppleTV
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76D00] AppleTV4K
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35A00] TVOS
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A74400] Mac
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B34F00] MacClient
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77200] MacNoEditor
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36C00] MacServer
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77500] Linux
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B34D00] LinuxAArch64
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77700] LinuxNoEditor
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35B00] LinuxAArch64NoEditor
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A74B00] LinuxClient
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36800] LinuxAArch64Client
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75C00] LinuxServer
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35800] LinuxAArch64Server
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77B00] Android
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35400] Android_Low
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75200] Android_Mid
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B37200] Android_High
+[2022.03.28-00.27.09:701][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A76A00] Android_Default
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B36100] Android_Adreno4xx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A74500] Android_Adreno5xx_Low
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B37500] Android_Adreno5xx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A77300] Android_Adreno6xx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B35300] Android_Adreno6xx_Vulkan
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75E00] Android_Mali_T6xx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7B34A00] Android_Mali_T7xx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A75300] Android_Mali_T8xx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD2200] Android_Mali_G71
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A87800] Android_Mali_G72
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD1100] Android_Mali_G72_Vulkan
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A85700] Android_Mali_G76
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD0C00] Android_Mali_G76_Vulkan
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A87C00] Android_Mali_G77
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD3D00] Android_Mali_G77_Vulkan
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A87E00] Android_Vulkan_SM5
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD3400] Android_PowerVR_G6xxx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A87300] Android_PowerVR_GT7xxx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD1A00] Android_PowerVR_GE8xxx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A86100] Android_PowerVR_GM9xxx
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD0400] Android_PowerVR_GM9xxx_Vulkan
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A87F00] Android_TegraK1
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD2900] Android_Unknown_Vulkan
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A86F00] Lumin
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7AD0B00] Lumin_Desktop
+[2022.03.28-00.27.09:702][671]LogDeviceProfile: Device profile begin destroy: [00000242A7A87700] HoloLens
+[2022.03.28-00.27.10:174][671]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:175][671]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:175][671]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:176][671]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:176][671]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:177][671]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:177][671]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:177][671]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:178][671]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:178][671]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:179][671]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:179][671]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:179][671]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.28-00.27.10:179][671]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.28-00.27.10:179][671]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.28-00.27.10:179][671]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.28-00.27.10:179][671]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.28-00.27.10:179][671]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.28-00.27.10:179][671]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.28-00.27.10:179][671]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:181][671]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:181][671]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:182][671]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:182][671]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:183][671]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:184][671]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.10:614][671]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.03.28-00.27.11:705][671]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.28-00.27.11:705][671]LogExit: Editor shut down
+[2022.03.28-00.27.11:706][671]LogExit: Transaction tracking system shut down
